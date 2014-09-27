@@ -268,7 +268,7 @@ ul.nav-menu, div.nav-menu > ul { margin: 0; padding: 0 40px 0 0; }
 
 .nav-menu li { display: inline-block; position: relative; }
 
-.nav-menu li a { color: #141412; display: block; font-size: 15px; line-height: 1; padding: 15px 20px; text-decoration: none; }
+.nav-menu li a { color: #141412; display: block; font-size: 15px; padding: 15px 20px; text-decoration: none; }
 
 .nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus { background-color: #db572f; color: #ffffff; }
 
