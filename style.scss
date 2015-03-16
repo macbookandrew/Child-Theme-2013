@@ -105,9 +105,7 @@ $body-font-stack:             "Open Sans", Helvetica, sans-serif;
  */
 
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing:    border-box;
-	box-sizing:         border-box;
+	box-sizing: border-box;
 }
 
 article,
@@ -262,10 +260,7 @@ pre,
 samp {
 	font-family: monospace, serif;
 	font-size: 14px;
-	-webkit-hyphens: none;
-	-moz-hyphens:    none;
-	-ms-hyphens:     none;
-	hyphens:         none;
+	hyphens: none;
 }
 
 pre {
@@ -283,10 +278,7 @@ pre {
 
 blockquote,
 q {
-	-webkit-hyphens: none;
-	-moz-hyphens:    none;
-	-ms-hyphens:     none;
-	hyphens:         none;
+	hyphens: none;
 	quotes: none;
 }
 
@@ -641,8 +633,7 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"] {
 	background: #e05d22; /* Old browsers */
-	background: -webkit-linear-gradient(top, #e05d22 0%, #d94412 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #e05d22 0%, #d94412 100%); /* W3C */
+	background: linear-gradient(to bottom, #e05d22 0%, #d94412 100%);
 	border: none;
 	border-bottom: 3px solid #b93207;
 	border-radius: 2px;
@@ -661,8 +652,7 @@ input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
 	background: #ed6a31; /* Old browsers */
-	background: -webkit-linear-gradient(top, #ed6a31 0%, #e55627 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #ed6a31 0%, #e55627 100%); /* W3C */
+	background: linear-gradient(to bottom, #ed6a31 0%, #e55627 100%);
 	outline: none;
 }
 
@@ -671,8 +661,7 @@ input[type="submit"]:active,
 input[type="button"]:active,
 input[type="reset"]:active {
 	background: #d94412; /* Old browsers */
-	background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #d94412 0%, #e05d22 100%); /* W3C */
+	background: linear-gradient(to bottom, #d94412 0%, #e05d22 100%); /* W3C */
 	border: none;
 	border-top: 3px solid #b93207;
 	padding: 10px 24px 11px;
@@ -1020,8 +1009,7 @@ ul.nav-menu .focus > ul,
 	margin: 3px 0;
 	padding: 0 0 0 34px;
 	position: relative;
-	-webkit-transition: width 400ms ease, background 400ms ease;
-	transition:         width 400ms ease, background 400ms ease;
+	transition: width 400ms ease, background 400ms ease;
 	width: 0;
 }
 
@@ -1173,10 +1161,7 @@ ul.nav-menu .focus > ul,
  */
 
 .entry-content {
-	-webkit-hyphens: auto;
-	-moz-hyphens:    auto;
-	-ms-hyphens:     auto;
-	hyphens:         auto;
+	hyphens: auto;
 	word-wrap: break-word;
 }
 
@@ -1329,38 +1314,32 @@ footer.entry-meta {
 
 .gallery-columns-4 .gallery-item {
 	max-width: 23%;
-	max-width: -webkit-calc(25% - 4px);
-	max-width:         calc(25% - 4px);
+	max-width: calc(25% - 4px);
 }
 
 .gallery-columns-5 .gallery-item {
 	max-width: 19%;
-	max-width: -webkit-calc(20% - 4px);
-	max-width:         calc(20% - 4px);
+	max-width: calc(20% - 4px);
 }
 
 .gallery-columns-6 .gallery-item {
 	max-width: 15%;
-	max-width: -webkit-calc(16.7% - 4px);
-	max-width:         calc(16.7% - 4px);
+	max-width: calc(16.7% - 4px);
 }
 
 .gallery-columns-7 .gallery-item {
 	max-width: 13%;
-	max-width: -webkit-calc(14.28% - 4px);
-	max-width:         calc(14.28% - 4px);
+	max-width: calc(14.28% - 4px);
 }
 
 .gallery-columns-8 .gallery-item {
 	max-width: 11%;
-	max-width: -webkit-calc(12.5% - 4px);
-	max-width:         calc(12.5% - 4px);
+	max-width: calc(12.5% - 4px);
 }
 
 .gallery-columns-9 .gallery-item {
 	max-width: 9%;
-	max-width: -webkit-calc(11.1% - 4px);
-	max-width:         calc(11.1% - 4px);
+	max-width: calc(11.1% - 4px);
 }
 
 .gallery-columns-1 .gallery-item:nth-of-type(1n),
@@ -1396,8 +1375,7 @@ footer.entry-meta {
 	bottom: 0;
 	left: 0;
 	text-align: left;
-	-webkit-transition: opacity 400ms ease;
-	transition:         opacity 400ms ease;
+	transition: opacity 400ms ease;
 	width: 100%;
 }
 
@@ -1491,8 +1469,7 @@ footer.entry-meta {
 	float: right;
 	padding-left: 35px;
 	width: 80%;
-	width: -webkit-calc(100% - 85px);
-	width:         calc(100% - 85px);
+	width: calc(100% - 85px);
 }
 
 .format-audio .wp-audio-shortcode {
@@ -2285,8 +2262,7 @@ footer.entry-meta {
 .comment-list .reply {
 	float: right;
 	width: 79%;
-	width: -webkit-calc(100% - 124px);
-	width:         calc(100% - 124px);
+	width: calc(100% - 124px);
 	word-wrap: break-word;
 }
 
@@ -2499,10 +2475,7 @@ footer.entry-meta {
 .widget {
 	background-color: rgba($menu-background, 0.7);
 	font-size: 14px;
-	-webkit-hyphens: auto;
-	-moz-hyphens:    auto;
-	-ms-hyphens:     auto;
-	hyphens:         auto;
+	hyphens: auto;
 	margin: 0 0 24px;
 	padding: 20px;
 	word-wrap: break-word;
@@ -3012,15 +2985,13 @@ footer.entry-meta {
 	.comment-content,
 	.comment-list .reply {
 		width: 70%;
-		width: -webkit-calc(100% - 104px);
-		width:         calc(100% - 104px);
+		width: calc(100% - 104px);
 	}
 
 	.comment-form input[type="text"],
 	.comment-form input[type="email"],
 	.comment-form input[type="url"] {
-		width: -webkit-calc(100% - 120px);
-		width:         calc(100% - 120px);
+		width: calc(100% - 120px);
 	}
 
 	.comment-form textarea {
@@ -3050,8 +3021,7 @@ footer.entry-meta {
 	.gallery-columns-2.gallery-size-thumbnail .gallery-item {
 		max-width: none;
 		width: 49%;
-		width: -webkit-calc(50% - 4px);
-		width:         calc(50% - 4px);
+		width: calc(50% - 4px);
 	}
 
 	.gallery-columns-1.gallery-size-medium,
@@ -3066,8 +3036,7 @@ footer.entry-meta {
 	.gallery-columns-1.gallery-size-thumbnail .gallery-item {
 		text-align: center;
 		width: 98%;
-		width: -webkit-calc(100% - 4px);
-		width:         calc(100% - 4px);
+		width: calc(100% - 4px);
 	}
 
 	.gallery-columns-3 .gallery-item:nth-of-type(3n),
