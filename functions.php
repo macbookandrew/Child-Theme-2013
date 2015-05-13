@@ -1,4 +1,5 @@
 <?php
+// use minified CSS and dequeue 2013 default fonts
 function add_custom_css() {
     wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/style.min.css' );
     wp_dequeue_style( 'twentythirteen-style' );
@@ -10,6 +11,13 @@ function add_custom_css() {
     wp_dequeue_style( 'bitter' );
 }
 add_action( 'wp_print_styles', 'add_custom_css' );
+
+// remove script and style version numbers
+function script_loader_src_example( $src ) {
+    return remove_query_arg( 'ver', $src );
+}
+add_filter( 'script_loader_src', 'script_loader_src_example' );
+add_filter( 'style_loader_src', 'script_loader_src_example' );
 
 include('functions-branding.php');
 include('functions-church.php');
